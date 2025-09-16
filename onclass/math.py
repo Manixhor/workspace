@@ -1,1 +1,0 @@
-print(range(1, 11))  # Output: range(1, 11)
