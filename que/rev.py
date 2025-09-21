@@ -1,10 +1,10 @@
 #reverse a string 
 
-# word = input("enter your word to reverse \n")
-# reverse = ""
-# for letter in word:
-#     reverse = letter + reverse
-# print(reverse)
+word = input("enter your word to reverse \n")
+reverse = ""
+for letter in word:
+    reverse = letter + reverse
+print(reverse)
 
 
 # #find the largest number in a list 
@@ -31,15 +31,17 @@
 
 #count a vowel 
 
-sentence = "hello world Mani is HeRe"
-vowels = "aeiou"
-count = 0 
-found = ""
-for letter in sentence:
-    if letter.lower() in vowels:
-        count = count + 1
-        found += letter
+# sentence = "hello world Mani is HeRe"
+# vowels = "aeiou"
+# count = 0 
+# found = ""
+# for letter in sentence:
+#     if letter.lower() in vowels:
+#         count = count + 1
+#         found += letter
         
 
-print(count)
-print(found)
+# print(count)
+# print(found)
+
+
