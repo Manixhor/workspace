@@ -1,11 +1,20 @@
-word1 = input("enter the word1").lower()
-word2 = input("enter the word2").lower()
+word1 = input()
+word2 = input()
 
 if len(word1) != len(word2):
-    print("Not anagram")
+    print("not an anagram")
 else:
-    letters = len(word2)
     is_anagram = True
+    letters = list(word2)
 
-    
+    for letter in word1:
+        if letter in letters:
+            letters.remove(letter)
+        else:
+            is_anagram = False
+            break 
+    if is_anagram:
+        print("yes")
+    else:
+        print("False")
 

@@ -1,14 +1,12 @@
-word = input()
+n = "anaddd"
 
-word = word.lower()
 
-reversed_word = ""
-for letter in word:
-    reversed_word = letter + reversed_word
+result = ""
 
-if word == reversed_word:
-    print("yes")
-
+for letter in n:
+    # if letter in n:
+        result = letter + result 
+if result == n:
+    print("it is a palindrome")
 else:
-    print("Nope")
-    
+    print("It is not a palindrome")
