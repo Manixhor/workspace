@@ -1,0 +1,12 @@
+
+What is REST ARCHITECÞURE ?
+
+REST - Representational State Transfer 
+
+-> It is a set of rules to bulid the API's 
+-> GET,POST,PUT,PATCH and DELETE 
+- GET is used to retrive the data 
+- POST used for creating the data
+- PUT is for replace the given data 
+- PATCH is for only updating the data 
+- DELETE is for deleting the data from the server 
