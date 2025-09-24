@@ -1,0 +1,5 @@
+# what is python libraries ?
+
+-> python libraries are math,pygame,numpy and pandas turtle it is a ready made code if we import we can use the functions instead of 
+writing the manual
+-> the code will clean and short 
