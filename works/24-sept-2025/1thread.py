@@ -15,7 +15,6 @@ def fold_clothes():
 homework_thread = threading.Thread(target=do_homework)
 clothes_thread = threading.Thread(target=fold_clothes)
 
-# Start both threads
 homework_thread.start()
 clothes_thread.start()
 
