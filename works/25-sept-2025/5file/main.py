@@ -42,7 +42,7 @@ def update_item(name: str, item: Item):
     items_db[name] = item
     return item
 
-# ✅ DELETE endpoint
+
 @app.delete("/items/{name}")
 def delete_item(name: str):
     if name in items_db:
