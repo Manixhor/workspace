@@ -9,4 +9,4 @@ app = FastAPI()
 def hello():
 	return "hello world"
 	
-
+@app.get()
