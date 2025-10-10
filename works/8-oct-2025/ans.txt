@@ -1,0 +1,83 @@
+#what are the features of web application ?
+-> user can access it through a browser without installing anything locally
+-> It allows users to input data, click buttons and get dynamic results
+-> It usually includes signup and login and role based access 
+A web application runs in a browser, lets users interact with data, is responsive, secure, connected to a database, and automatically updates online.
+
+What is OWASP ?
+OWASP stands for Open Web Application Security Project 
+It is a community and organization that helps people make web application safe.
+It does the research, publishes, guidelines, and provides tools to prevent security problems.
+
+What is difference b/w Fastapi and DJANGO ?
+DJANGO:
+	full stack web frame work 
+	best for large and complex web apps 
+	comes with ORM , Authentication, admin, dashboard etc
+	don’t need extra libraries 
+FASTAPI:
+	It is a modern API Framework
+	Building for API’S and micro services 
+	It is super fast 
+	great developer experience 
+	more suited for API’s the full web apps 
+
+What is cloud computing ? 
+-> cloud computing is the delivery of computing services such as servers, storage, database, networking, software and analytics over the internet
+-> it allows organizations to access IT resources on demand without owing physical hardware.
+benefits:
+	scalability: Resources can increase or decrease based on demand.
+	cost-efficiency: pay only for what you use.
+	Accessibility: services available from anywhere from the internet.
+	Managed services: The cloud providers handles maintenance,  updates and security.
+	
+What is GET POST PUT AND DELETE PATCH ?
+
+GET : It retrieves the data from the server 
+POST: It creates the data from the user input 
+PUT: It modifies the data and It changes the data
+DELETE: It deletes the data from the server 
+PATCH : It modifies the data only the part will get modified. 
+
+
+what are the difference b/w SQL MYSQL PLSQL DB2 and NOSQL ?
+SQL:
+	it is a language type 
+	structured query language 
+	Used to manage relational database and query 
+MYSQL:	
+	Relational database management system 
+	A database software that stores data in tables
+	Open source widely used for websites and apps 
+	PL/SQL:
+		It is a language 
+		IBM’s relational database system
+		Enterprise level, supports large scale business applications 
+	NoSQL:
+		It is a database type 
+		Non relational databases 
+		Stores data as documents, key-value pairs and good for big data and flexible 
+		schemas.
+->SQL = the language to write commands
+->MySQL/DB2 = the kitchen where data is cooked
+->PL/SQL = a chef who can follow recipes with loops and conditions
+->NoSQL = a flexible pantry where you can store items in any shape or container
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

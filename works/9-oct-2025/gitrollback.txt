@@ -1,0 +1,9 @@
+#what is git roll back ?
+	Git roll back means going back to the previous state of our code. 
+	->  git checkout --fastapi 
+	-> git checkout --main.py 
+	-> git reset HEAD fastapi 
+	-> git reset --hard HEAD~1
+	-> git revert <commit-hash>
+#what is git conflict ?
+A Git conflict happens when two changes clash and Git doesn’t know which one to keep.
