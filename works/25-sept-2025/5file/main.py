@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+
+=======
+>>>>>>> mani
 from fastapi import FastAPI
 from pydantic import BaseModel
 
@@ -12,6 +16,10 @@ class Item(BaseModel):
 # In-memory store for items
 items_db = {}
 
+<<<<<<< HEAD
+
+=======
+>>>>>>> mani
 class Student(BaseModel):
     name: str
     age: int
@@ -21,6 +29,13 @@ class Student(BaseModel):
 def get_all_students():
     return [{"name": "Dheeraj23", "age": 20, "grade": "A++"}, {"name": "Sashi", "age": 22, "grade": "B++"}]   
 
+<<<<<<< HEAD
+
+
+
+
+=======
+>>>>>>> mani
 @app.get("/items/")
 def get_all_items():
     return list(items_db.values())
@@ -41,11 +56,19 @@ def get_item(name: str):
 def update_item(name: str, item: Item):
     items_db[name] = item
     return item
+<<<<<<< HEAD
+=======
 
 
+>>>>>>> mani
 @app.delete("/items/{name}")
 def delete_item(name: str):
     if name in items_db:
         deleted_item = items_db.pop(name)
+<<<<<<< HEAD
+        return {"message": f"Item {name} deleted", "item": deleted_item}
+    return {"error": f"Item {name} not found"}
+=======
         return {"message": f"Item '{name}' deleted successfully", "deleted_item": deleted_item}
     return {"error": f"Item '{name}' not found"}
+>>>>>>> mani
