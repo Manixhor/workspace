@@ -6,5 +6,7 @@ def remove(s):
 			result += char 
 	return result 
 		
-s = "Mani"
+s = input("enter your string:").lower()
 print(remove(s))
+
+
