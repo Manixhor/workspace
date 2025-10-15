@@ -6,14 +6,14 @@ app = FastAPI()
 @app.post("/login")
 def login(username: str, password: str):
     if username == "admin" and password == "123":
-        return {"token": "ABC123"}  
+        return {"token": "MANI123"}  
     else:
         return {"message": "Wrong username or password"}
 
 # Step 2: User shows token to enter secret room
 @app.get("/secret-room")
 def secret_room(token: str):
-    if token == "ABC123":  
+    if token == "MANI123":  
         return {"message": "Welcome to the secret room!"}
     else:
         return {"message": "Access denied! No valid token."}
