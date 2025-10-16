@@ -1,0 +1,54 @@
+#what is role based sites ?
+-> A role based website is a website where different users can see or can do different things depends on their role
+Ex: like Admin,User,Guest,Manager,students etc.
+
+Website
+student -> view homework, submit assignment
+Teacher -> post home work, grade submissions
+Admin -> add/remove the students or teachers.
+
+Advantages 
+ - good security - prevents unauthorized access
+ - Better UX - shows only relevant to each user 
+ - Control & Flexibility - Easy to. manage permissions 
+ 
+ #what is Micro service ?
+ -- A way of building is a way of building software where big application sis split into many small, independent services, and each service 
+ handles one specific job.
+Example:
+User login -> separate Auth service 
+Product Listing  -> separate product service 
+**Netflix**
+
+User service -> Manages user accounts,profiles and login 
+Search service -> Handles searching titles like “Action movies”
+Subtitle service -> Provides subtitles in different languages 
+Billing payment -> Handles subscription & payments
+Analytics Service -> Tracks user behavior and viewing stats
+
+#what is variable parameter ?
+-> A variable parameter is a parameter that allows a function to accept any num of arguments, instead of a fixed count.
+
+#what is Field in FastAPI ?
+-> it provides extra rules for a field inside a request/response model 
+Features:
+-> set validation rules - max/min
+-> provides - description 
+-> marks as required fields 
+-> customize the default values  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+\
+
+
+ 
+ 
