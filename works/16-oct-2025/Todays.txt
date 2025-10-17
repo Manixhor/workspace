@@ -1,6 +1,6 @@
 #what is role based sites ?
 -> A role based website is a website where different users can see or can do different things depends on their role
-Ex: like Admin,User,Guest,Manager,students etc.
+Ex: like Admin, User, Guest,Manager,students etc.
 
 Website
 student -> view homework, submit assignment
