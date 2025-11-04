@@ -1,0 +1,43 @@
+
+-> What is database ?
+
+A database is like a digital filling system instead oof storing information in 
+folders or papers, data is stored in tables inside a computer systems.
+
+-> What are the responsibilities in SQL ?
+
+There are many roles: 
+Database Administrator, database developer, data analyst, dataentry operator Administrator
+and Read only user
+-> What is cloud database ?
+A cloud database is a database hosted and managed on the internet  rather than you own hardware.
+
+-> What is AWS, GCP(Google Cloud Platform) and Azure (Microsoft Azure) ?
+
+AWS - Amazon Web Services 
+AWS offers many managed database services, both SQL and NoSQL.
+GCP - Google Cloud Platform 
+GCP offers provides both relational and non-relational databases.
+Azure offers similar managed databaseoptions for different data types.
+
+-> What are view functions stores procedures as current databases ?
+1.Views-> A view is a virtual table that displays data from one or more tables using a SQL query. 
+2.Functions -> A function is a set of SQL statments that performs a operation and returns a single value or table.
+3.Stored Procedures -> A stored procedure is a precomplied set of SQL statements stored in the database. 
+
+-> what is the command to get the constraints ?
+SELECT 
+    CONSTRAINT_NAME,
+    CONSTRAINT_TYPE,
+    TABLE_NAME
+FROM INFORMATION_SCHEMA.TABLE_CONSTRAINTS
+WHERE TABLE_NAME = 'your_table_name';
+
+-> what is difference b/w timestamp and date 
+| Feature            | **DATE**                          | **TIMESTAMP**                           |
+| ------------------ | --------------------------------- | --------------------------------------- |
+| **Stores**         | Year, Month, Day                  | Year, Month, Day, Hour, Minute, Second  |
+| **Time Zone**      | ❌ No                              | ✅ Optional (depends on DB)              |
+| **Typical Format** | `YYYY-MM-DD`                      | `YYYY-MM-DD HH:MI:SS`                   |
+| **Storage Size**   | Smaller                           | Larger                                  |
+| **Use Case**       | Birthdays, holidays, static dates | Log times, transactions, event tracking |
