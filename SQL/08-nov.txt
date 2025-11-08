@@ -1,0 +1,16 @@
+-> What is AWS database ?
+AWS database refers to the database services offered by AWS a cloud computing platform by Amazon.
+For unstructured or semi-structured data.
+Amazon DynamoDB – Fully managed key-value and document database, great for high-scale applications with low latency.
+Amazon DocumentDB – Managed database compatible with MongoDB.
+Amazon Keyspaces (for Apache Cassandra) – Managed Cassandra-compatible database.
+
+Cookies are small pieces of data that a website stores on your computer or device when you visit it. They help website remember
+information about you.
+How Cookies Work
+You visit a website.
+The website sends a small file (a cookie) to your browser.
+Your browser stores it on your device.
+When you visit the same website again, your browser sends the cookie back.
+The website uses it to recognize you or remember your settings.
+
