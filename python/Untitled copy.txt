@@ -1,3 +1,6 @@
-print("hello world")
+match = "abscdkcdabc"
 
-print("mani")
+pattern = re.complie(r'abc')
+
+matches = pattern.finditer(match)
+
