@@ -1,0 +1,9 @@
+what is difference b/w port and web socket 
+
+Port: 
+A port is a number used to identify a specific process or service on a device within a network.
+Think of it like an apartment number in a building: the building is the IP address, and the port is which door 
+you're knocking on.
+
+Websocket: 
+A websocket is a protocol that provides full duplex communication between a client and a server over a single, Long-lived TCP connection
