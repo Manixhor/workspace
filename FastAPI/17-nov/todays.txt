@@ -8,3 +8,7 @@ Optional mean that field can be None
 class Item(BaseModel):
 	name : str 
 	price : Optional[bool]
+	
+	
+--> What is the use of date and time module ?
+It is used for session handling to set 60sec or 2min using this module we can control the session 
