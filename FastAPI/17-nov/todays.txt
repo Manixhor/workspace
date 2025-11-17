@@ -1,0 +1,10 @@
+--> what is typing ?
+typing is a python module that provides type hints,
+it specifies what type of data your variables should contain.
+Example : from typing import List, Dict, Optional 
+--> what is Optional ?
+Optional mean that field can be None 
+
+class Item(BaseModel):
+	name : str 
+	price : Optional[bool]
