@@ -11,15 +11,15 @@ students = [
 @app.get("/display/{id}")
 def view(id:str):
     for s in students:
-        if s['place'] == id:
+        if s['id'] == id:
             return s 
         
 #query parameter 
-@app.get("/display")
-def viewforquery(name:str):
-    for e in students:
-        if e['name'] == name:
-            return e
+# @app.get("/display")
+# def viewforquery(name:str):
+#     for e in students:
+#         if e['name'] == name:
+#             return e
     
 
 
