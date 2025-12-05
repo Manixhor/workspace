@@ -1,0 +1,6 @@
+match = "abscdkcdabc"
+
+pattern = re.complie(r'abc')
+
+matches = pattern.finditer(match)
+
